@@ -91,26 +91,23 @@ body {
     cursor: pointer;
 }
 
-.nav-menu {
-    display: flex;
-    justify-content: center; /* Centraliza os itens */
-
-}
-
 .nav-menu ul {
-    list-style: none;
     display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+    list-style: none;
+    gap: 30px;
 }
 
-nav ul li a {
+.nav-menu a {
     text-decoration: none;
-    color: #b788e4;
+    color: var(--black);
     font-weight: 500;
+    transition: color 0.3s;
+}
 
-    
+.nav-menu a:hover {
+    color: var(--primary-color);
+}
+
 .dropdown {
     position: relative;
 }
@@ -929,5 +926,4 @@ nav ul li a {
  
  background-color: var(--lilac); 
  
-}
 }
