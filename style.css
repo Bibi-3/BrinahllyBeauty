@@ -505,7 +505,7 @@ body {
 /* Footer */
 .footer {
     background: var(--black);
-    color: var(--white);
+    color: var(--primary-color);
     padding: 60px 0 20px;
 }
 
