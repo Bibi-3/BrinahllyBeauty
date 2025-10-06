@@ -18,8 +18,7 @@ class BrinahllyBeauty {
                 price: 49.90,
                 oldPrice: 59.90,
                 category: "body-splash",
-                badge: "MAIS VENDIDO",
-                icon: "🌸"
+                badge: "LANÇAMENTO",
             },
             {
                 id: 2,
@@ -28,7 +27,6 @@ class BrinahllyBeauty {
                 price: 54.90,
                 category: "body-splash",
                 badge: "LANÇAMENTO",
-                icon: "🍍"
             },
             {
                 id: 3,
@@ -37,7 +35,7 @@ class BrinahllyBeauty {
                 price: 52.90,
                 oldPrice: 59.90,
                 category: "body-splash",
-                icon: "🍦"
+                badge: "FICTÍCIO",
             },
             {
                 id: 4,
@@ -45,7 +43,7 @@ class BrinahllyBeauty {
                 description: "Acalmante e relaxante, com essência pura de lavanda francesa",
                 price: 47.90,
                 category: "body-splash",
-                icon: "💜"
+                badge: "fICTÍCIO",
             },
         ];
     }
